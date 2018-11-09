@@ -1,0 +1,299 @@
+[
+    {
+        "label": "系统配置管理",
+        "icon": "icon-xitongguanli",
+        "children": [
+			{
+				"id": "2",
+				"url": "/user",
+				"label": "用户管理",
+				"icon": "icon-Management"
+			},
+			{
+				"id": "3",
+				"url": "/role",
+				"label": "角色管理",
+				"icon": "icon-jiaoseguanli"
+			},
+            {
+                "id": "4",
+                "url": "/menu",
+                "label": "菜单管理",
+                "icon": "icon-erji-caidanguanli"
+            },
+            {
+                "id": "6",
+                "url": "/dict",
+                "label": "字典管理",
+                "icon": "icon-zygl"
+            }
+        ]
+    },
+    {
+        "label": "任务管理",
+        "icon": "icon-rizhiguanli",
+        "children": [
+            {
+                "id": "14",
+                "url": "/job",
+                "label": "任务定义",
+                "icon": "icon-denglurizhi"
+            },
+            {
+                "id": "15",
+                "url": "/jobplan",
+                "label": "任务执行",
+                "icon": "icon-caozuorizhi"
+            }
+        ]
+    },
+    {
+        "label": "系统监控",
+        "icon": "icon-jiankongfuwu",
+        "children": [
+            {
+                "id": "17",
+                "Relative": false,
+                "url": "",
+                "label": "服务监控",
+                "icon": "icon-yingyongjiankong"
+            },
+            {
+                "id": "18",
+                "Relative": false,
+                "url": "http://139.224.200.249:5002",
+                "label": "zipkin监控",
+                "icon": "icon-jiankongshuju"
+            },
+            {
+                "id": "19",
+                "Relative": false,
+                "url": "https://pinpoint.pig4cloud.com",
+                "label": "pinpoint监控",
+                "icon": "icon-monitor"
+            },
+            {
+                "id": "20",
+                "Relative": false,
+                "url": "http://139.224.200.249:8585",
+                "label": "缓存状态",
+                "icon": "icon-jiankong"
+            },
+            {
+                "id": "21",
+                "Relative": false,
+                "url": "http://139.224.200.249:5601",
+                "label": "ELK状态",
+                "icon": "icon-monitoring"
+            },
+            {
+                "id": "22",
+                "Relative": false,
+                "url": "http://192.168.12.170:9999/swagger-ui.html",
+                "label": "接口文档",
+                "icon": "icon-api"
+            },
+            {
+                "id": "23",
+                "Relative": false,
+                "url": "http://139.224.200.249:8899",
+                "label": "任务监控",
+                "icon": "icon-jiankong1"
+            },
+            {
+                "id": "24",
+                "url": "",
+                "label": "客户端管理",
+                "icon": "icon-bangzhushouji"
+            },
+            {
+                "id": "25",
+                "url": "",
+                "label": "路由管理",
+                "icon": "icon-luyou"
+            },
+            {
+                "label": "日志管理",
+                "icon": "icon-rizhiguanli",
+                "children": [
+                    {
+                        "id": "9",
+                        "url": "/loginlog",
+                        "label": "登录日志",
+                        "icon": "icon-denglurizhi"
+                    },
+                    {
+                        "id": "11",
+                        "url": "/auditlog",
+                        "label": "审计日志",
+                        "icon": "icon-shenjiguanli"
+                    },
+                    {
+                        "id": "12",
+                        "url": "/exceptionlog",
+                        "label": "异常日志",
+                        "icon": "icon-yichang"
+                    },
+                    {
+                        "id": "13",
+                        "url": "/facelog",
+                        "label": "接口日志",
+                        "icon": "icon-api"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "基础数据管理",
+        "icon": "icon-qunfengjichushuju",
+        "children": [
+            {
+                "id": "26",
+                "url": "/marketmember",
+                "label": "市场成员管理",
+                "icon": "icon-chengyuan"
+            },
+            {
+                "id": "27",
+                "url": "/tranchannel",
+                "label": "输电通道管理",
+                "icon": "icon-dianlutu"
+            },
+            {
+                "id": "28",
+                "url": "/tradepath",
+                "label": "交易路径管理",
+                "icon": "icon-jiaoyi"
+            },
+            {
+                "id": "36",
+                "url": "/schedupload",
+                "label": "调度数据上传",
+                "icon": "icon-chengyuan"
+            },
+            {
+                "id": "37",
+                "url": "/linelossexport",
+                "label": "线损数据导入",
+                "icon": "icon-dianlutu"
+            }
+        ]
+    },
+    {
+        "label": "现货市场管理",
+        "icon": "icon-qunfengjichushuju",
+        "children": [
+            {
+                "id": "39",
+                "url": "/pidca",
+                "label": "省间日前出清合约管理",
+                "icon": "icon-chengyuan"
+            },
+            {
+                "id": "40",
+                "url": "/pdeq",
+                "label": "省间日前执行电量管理",
+                "icon": "icon-dianlutu"
+            },
+            {
+                "id": "41",
+                "url": "/ipcc",
+                "label": "省间日内出清合约管理",
+                "icon": "icon-jiaoyi"
+            },
+            {
+                "id": "42",
+                "url": "/deoe",
+                "label": "省间日内执行电量管理",
+                "icon": "icon-jiaoyi"
+            }
+        ]
+    },
+    {
+        "label": "电价管理",
+        "icon": "icon-qunfengjichushuju",
+        "children": [
+            {
+                "id": "43",
+                "url": "/priceplan",
+                "label": "价格方案",
+                "icon": "icon-chengyuan"
+            }
+        ]
+    },
+    {
+        "label": "结算电量管理",
+        "icon": "icon-qunfengjichushuju",
+        "children": [
+            {
+                "id": "44",
+                "url": "/dams",
+                "label": "日前市场结算",
+                "icon": "icon-chengyuan"
+            },
+            {
+                "id": "45",
+                "url": "/rtms",
+                "label": "日内市场结算",
+                "icon": "icon-dianlutu"
+            }
+        ]
+    },
+	{
+		"label": "结算单管理",
+		"icon": "icon-qunfengjichushuju",
+		"children": [
+			{
+				"id": "49",
+				"url": "/ssg",
+				"label": "结算单生成",
+				"icon": "icon-dianlutu"
+			},
+			{
+				"id": "50",
+				"url": "/ssm",
+				"label": "结算单管理",
+				"icon": "icon-qunfengjichushuju"
+			},
+			{
+				"id": "81",
+				"url": "/apply",
+				"label": "我的申请结算单",
+				"icon": "icon-dianlutu"
+			},
+			{
+				"id": "82",
+				"url": "/task",
+				"label": "我的待办结算单",
+				"icon": "icon-dianlutu"
+			}
+
+
+		]
+	},
+    {
+        "label": "电费收支管理",
+        "icon": "icon-qunfengjichushuju",
+        "children": [
+            {
+                "id": "55",
+                "url": "/lmm",
+                "label": "台账管理",
+                "icon": "icon-chengyuan"
+            },
+            {
+                "id": "56",
+                "url": "/erm",
+                "label": "电费应收管理",
+                "icon": "icon-dianlutu"
+            },
+            {
+                "id": "57",
+                "url": "/epm",
+                "label": "电费支付管理",
+                "icon": "icon-jiaoyi"
+            }
+        ]
+    }
+]
